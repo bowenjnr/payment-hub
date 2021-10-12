@@ -1,9 +1,11 @@
-payment-hub
+**Payment-hub**
+
 Repository to house the payment hub for integration with external payment schemas like Mojaloop, GSMA and MTN Uganda.
 
 Payment Hub is the component, which connects DFSPs to switches. In our case, it connects Fineract CN to Mojaloop, and Fineract v1.2 to Mojaloop. The Payment Hub communicates with the Fineract versions via REST API. To support the calls and actions, both Fineract versions had to be upgraded.
 
-Build
+**Build**
+
 Put a settings.xml into your ~/.m2 directory with the following content:
 
 <?xml version="1.0" encoding="UTF-8"?>
